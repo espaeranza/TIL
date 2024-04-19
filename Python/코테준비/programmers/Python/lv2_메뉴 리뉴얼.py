@@ -2,7 +2,7 @@
 # 코스 요리 : 최소 2 가지 단품 + 최소 2 명의 손님이 주문했던 제품 만 포함
 # 최종 -> 사전 순의 오름차순으로 정렬 
 # Orders 배열의 크기가 작고, orders 원소 크기 또한 작기 때문에 완전 탐색 가능
-from itertools import combinations 
+from itertools import combinations
 def solution(orders, course):    
     # 메뉴 저장    
     set_menu = {}    

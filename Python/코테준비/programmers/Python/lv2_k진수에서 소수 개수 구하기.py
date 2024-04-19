@@ -24,5 +24,3 @@ def solution(n, k):
         if is_prime_num(int(n)): # n이 소수인 경우 answer+=1
             answer += 1
     return answer
-
-
